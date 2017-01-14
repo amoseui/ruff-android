@@ -20,6 +20,9 @@ import android.preference.RingtonePreference;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
+import com.amoseui.ruffandroid.ruff.RuffPreferenceFragment;
+import com.amoseui.ruffandroid.ruff.RuffPreferenceFragmentCompat;
+
 import java.util.List;
 
 /**
@@ -158,7 +161,9 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         return PreferenceFragment.class.getName().equals(fragmentName)
                 || GeneralPreferenceFragment.class.getName().equals(fragmentName)
                 || DataSyncPreferenceFragment.class.getName().equals(fragmentName)
-                || NotificationPreferenceFragment.class.getName().equals(fragmentName);
+                || NotificationPreferenceFragment.class.getName().equals(fragmentName)
+                || RuffPreferenceFragment.class.getName().equals(fragmentName)
+                || RuffPreferenceFragmentCompat.class.getName().equals(fragmentName);
     }
 
     /**

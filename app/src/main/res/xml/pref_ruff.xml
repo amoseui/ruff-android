@@ -1,0 +1,6 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.amoseui.ruffandroid.ruff.RuffDescriptionPreference
+        android:key="description_preference"
+        android:persistent="false"
+        android:selectable="false" />
+</PreferenceScreen>
