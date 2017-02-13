@@ -25,4 +25,8 @@
         android:fragment="com.amoseui.ruffandroid.ruff.RuffPreferenceFragmentCompat"
         android:title="@string/pref_header_ruff_compat" />
 
+    <header
+        android:fragment="com.amoseui.ruffandroid.ruff.service.RuffServicePreferenceFragment"
+        android:title="@string/pref_header_ruff_service" />
+
 </preference-headers>

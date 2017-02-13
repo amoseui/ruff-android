@@ -75,6 +75,7 @@
 
     <string name="pref_header_ruff">Ruff Preferences</string>
     <string name="pref_header_ruff_compat">Ruff Preferences v14</string>
+    <string name="pref_header_ruff_service">Ruff Service</string>
 
     <string name="download_button">Download</string>
 
@@ -82,4 +83,6 @@
     <string name="description_no_item_detail">There is no item. Get out.</string>
     <string name="description_item_exists">There are so many items you can choose. Choose whatever you want.</string>
 
+    <string name="service_update_button_text">Update</string>
+    <string name="service_update_init">Init</string>
 </resources>

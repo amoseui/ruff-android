@@ -22,6 +22,7 @@ import android.view.MenuItem;
 
 import com.amoseui.ruffandroid.ruff.RuffPreferenceFragment;
 import com.amoseui.ruffandroid.ruff.RuffPreferenceFragmentCompat;
+import com.amoseui.ruffandroid.ruff.service.RuffServicePreferenceFragment;
 
 import java.util.List;
 
@@ -163,7 +164,8 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                 || DataSyncPreferenceFragment.class.getName().equals(fragmentName)
                 || NotificationPreferenceFragment.class.getName().equals(fragmentName)
                 || RuffPreferenceFragment.class.getName().equals(fragmentName)
-                || RuffPreferenceFragmentCompat.class.getName().equals(fragmentName);
+                || RuffPreferenceFragmentCompat.class.getName().equals(fragmentName)
+                || RuffServicePreferenceFragment.class.getName().equals(fragmentName);
     }
 
     /**
