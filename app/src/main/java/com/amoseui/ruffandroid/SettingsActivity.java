@@ -13,15 +13,16 @@ import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
-import android.support.v7.app.ActionBar;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
+import android.support.v7.app.ActionBar;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
 import com.amoseui.ruffandroid.ruff.RuffPreferenceFragment;
 import com.amoseui.ruffandroid.ruff.RuffPreferenceFragmentCompat;
+import com.amoseui.ruffandroid.ruff.notification.RuffNotificationPreferenceFragment;
 import com.amoseui.ruffandroid.ruff.service.RuffServicePreferenceFragment;
 
 import java.util.List;
@@ -165,7 +166,8 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
                 || NotificationPreferenceFragment.class.getName().equals(fragmentName)
                 || RuffPreferenceFragment.class.getName().equals(fragmentName)
                 || RuffPreferenceFragmentCompat.class.getName().equals(fragmentName)
-                || RuffServicePreferenceFragment.class.getName().equals(fragmentName);
+                || RuffServicePreferenceFragment.class.getName().equals(fragmentName)
+                || RuffNotificationPreferenceFragment.class.getName().equals(fragmentName);
     }
 
     /**

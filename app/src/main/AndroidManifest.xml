@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <service android:name=".ruff.service.RuffService" />
+        <service android:name=".ruff.notification.RuffNotificationService" />
     </application>
 
 </manifest>

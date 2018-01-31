@@ -29,4 +29,8 @@
         android:fragment="com.amoseui.ruffandroid.ruff.service.RuffServicePreferenceFragment"
         android:title="@string/pref_header_ruff_service" />
 
+    <header
+        android:fragment="com.amoseui.ruffandroid.ruff.notification.RuffNotificationPreferenceFragment"
+        android:title="@string/pref_header_ruff_notification_service" />
+
 </preference-headers>
